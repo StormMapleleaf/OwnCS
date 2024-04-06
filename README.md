@@ -1,2 +1,2 @@
 # OwnCS
-For StromPhoenix
+Become as powerful as StormPhoenix
