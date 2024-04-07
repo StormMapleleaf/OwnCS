@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cd20f39d8b83657c",
+        "id": "6a976298bf499555",
         "type": "tabs",
         "children": [
           {
-            "id": "7e4b98791eed1db9",
+            "id": "cf86a4fe40943a71",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,8 +138,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7e4b98791eed1db9",
+  "active": "cf86a4fe40943a71",
   "lastOpenFiles": [
-    "未命名.canvas"
+    "2024-04-07.md",
+    "未命名.canvas",
+    "Emacs.md",
+    "未命名.md"
   ]
 }
