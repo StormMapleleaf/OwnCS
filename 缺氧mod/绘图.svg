@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="绘图.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.175463"
+     inkscape:cx="409.10832"
+     inkscape:cy="261.32369"
+     inkscape:window-width="2560"
+     inkscape:window-height="1494"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="212.36859"
+       y="248.22303"
+       width="319.47223"
+       height="111.70036"
+       id="rect6" />
+    <rect
+       x="187.08661"
+       y="189.84465"
+       width="366.81847"
+       height="293.27091"
+       id="rect5" />
+    <rect
+       x="182.03022"
+       y="179.27219"
+       width="523.56672"
+       height="179.73186"
+       id="rect4" />
+    <rect
+       x="136.06299"
+       y="54.701"
+       width="569.07427"
+       height="386.58438"
+       id="rect3" />
+    <rect
+       x="147.09513"
+       y="99.748883"
+       width="321.31092"
+       height="192.60268"
+       id="rect2" />
+    <rect
+       x="137.44201"
+       y="91.474782"
+       width="461.51096"
+       height="281.7791"
+       id="rect1" />
+  </defs>
+  <g
+     inkscape:label="图层 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1"
+       style="fill:#000000;white-space:pre;shape-inside:url(#rect1)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text2"
+       style="fill:#000000;white-space:pre;shape-inside:url(#rect2)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text3"
+       style="fill:#000000;white-space:pre;shape-inside:url(#rect3)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text4"
+       style="fill:#000000;white-space:pre;shape-inside:url(#rect4)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text5"
+       style="fill:#000000;white-space:pre;shape-inside:url(#rect5)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text6"
+       style="fill:#000000;white-space:pre;shape-inside:url(#rect6)" />
+    <rect
+       style="fill:#666666;stroke-width:0.264583"
+       id="rect13"
+       width="155.43243"
+       height="71.391891"
+       x="42.324326"
+       y="49.986488" />
+    <rect
+       style="fill:#00ffff;stroke-width:0.264583"
+       id="rect14"
+       width="65.310806"
+       height="31.013514"
+       x="44.148647"
+       y="51.93243" />
+  </g>
+</svg>
