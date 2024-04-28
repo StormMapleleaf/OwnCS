@@ -1,0 +1,30 @@
+# 使用 OpenJDK 11 作为基础镜像
+FROM adoptopenjdk/openjdk11:alpine-jre
+
+# 设置工作目录
+WORKDIR /app
+
+# 下载和解压 Tomcat
+RUN wget https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.0.M1/bin/apache-tomcat-9.0.0.M1.tar.gz && \
+    tar -zxvf apache-tomcat-9.0.0.M1.tar.gz && \
+    rm apache-tomcat-9.0.0.M1.tar.gz && \
+    mv apache-tomcat-9.0.0.M1 tomcat
+
+# 复制 JSP 文件到 Tomcat 的 webapps 目录下
+COPY index.jsp /app/tomcat/webapps/ROOT/index.jsp
+
+#本地挂载目录(未成功待定)
+#docker run -d -v ./index.jsp:/usr/local/tomcat/webapps/ROOT/index.jsp --name my_tomcat javaweb
+
+
+# 暴露 Tomcat 端口
+EXPOSE 8080
+
+# 启动 Tomcat
+CMD ["/app/tomcat/bin/catalina.sh", "run"]
+
+
+
+#构建流程
+#docker build -t <镜像名称> .
+#docker run -d -p 8080:8080 --name my_tomcat <镜像名称>
