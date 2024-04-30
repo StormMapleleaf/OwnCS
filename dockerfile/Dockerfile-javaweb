@@ -24,3 +24,6 @@ CMD ["/app/tomcat/bin/catalina.sh", "run"]
 #构建流程
 #docker build -t <镜像名称> .
 # docker run -d -p 8080:8080 -v D:\JavaWeb\Pro1\jsp_files:/app/tomcat/webapps/ROOT image-name
+
+#访问地址
+#http://localhost:8080/此后填写jsp_files下的jsp文件名
