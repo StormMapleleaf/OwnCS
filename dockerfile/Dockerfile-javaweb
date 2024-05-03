@@ -22,11 +22,14 @@ CMD ["/app/tomcat/bin/catalina.sh", "run"]
 
 #构建流程
 #docker build -t <镜像名称> .
-#docker run -d -p 8080:8080 -v /path/to/local/index.html:/app/tomcat/webapps/ROOT/index.html -v /path/to/local/SquareServlet.class:/app/tomcat/webapps/ROOT/WEB-INF/classes/SquareServlet.class your-tomcat-image
+#docker run -d -p 8080:8080 -v [jsp_files的本地路径]:/app/tomcat/webapps/ROOT/ -v [servlet的本地路径]:/app/tomcat/webapps/ROOT/WEB-INF/classes/ [your_image_name]
 #Example:docker run -d -p 8080:8080 -v D:/Javaweb/Pro1/jsp_files:/app/tomcat/webapps/ROOT/ -v D:/Javaweb/Pro1/servlet:/app/tomcat/webapps/ROOT/WEB-INF/classes/ java
 
 # 编译 Java 文件
-#  RUN javac -cp /app/tomcat/lib/servlet-api.jar:/app/tomcat/webapps/ROOT/WEB-INF/classes /app/tomcat/webapps/ROOT/WEB-INF/classes/*.java
+# 进入容器  docker exec -it <container—_id> sh
+# 运行javac -cp /app/tomcat/lib/servlet-api.jar:/app/tomcat/webapps/ROOT/WEB-INF/classes /app/tomcat/webapps/ROOT/WEB-INF/classes/*.java
+
+#重启容器docker restart <container_id>
 
 #访问地址
 #http://localhost:8080/此后填写jsp_files下的jsp文件名
