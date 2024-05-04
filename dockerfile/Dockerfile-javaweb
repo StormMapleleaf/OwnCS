@@ -19,6 +19,7 @@ EXPOSE 8080
 # 启动 Tomcat
 CMD ["/app/tomcat/bin/catalina.sh", "run"]
 
+#注意，servlet需要用注解的方式配置
 
 #构建流程
 #docker build -t <镜像名称> .
@@ -30,6 +31,7 @@ CMD ["/app/tomcat/bin/catalina.sh", "run"]
 # 运行javac -cp /app/tomcat/lib/servlet-api.jar:/app/tomcat/webapps/ROOT/WEB-INF/classes /app/tomcat/webapps/ROOT/WEB-INF/classes/*.java
 
 #重启容器docker restart <container_id>
+#！！！！运行javac后一定要重启容器才能刷新服务！！！！
 
 #访问地址
 #http://localhost:8080/此后填写jsp_files下的jsp文件名
