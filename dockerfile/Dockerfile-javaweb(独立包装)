@@ -36,3 +36,22 @@ CMD ["/app/tomcat/bin/catalina.sh", "run"]
 #访问地址
 #http://localhost:8080/<此后填写项目下的包的路径>
 #Example:http://localhost:8080/test1/test1.html
+
+
+#项目结构
+# Pro1
+# │   Dockerfile
+# │
+# ├───test1
+# ├───test2
+# ├───test3
+# ├───test4
+# ├───test5                             //test为单独的程序
+# │   │   LoginServlet.java
+# │   │   test5.html
+# │
+# └───WEB-INF
+    # └───classes                       //编译后的.class文件都会放在这里    
+        # │   LoginServlet.class
+        # │   MultiplicationTableServlet.class
+        # │   RegisterServlet.class
