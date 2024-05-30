@@ -28,10 +28,12 @@ public class LoginServlet extends HttpServlet {
             ResultSet resultSet = preparedStatement.executeQuery();
 
             if (resultSet.next()) {
+                // 登录成功，创建会话并设置用户名
                 HttpSession session = request.getSession();
                 session.setAttribute("username", username);
                 response.sendRedirect("index.jsp");
             } else {
+                // 登录失败，设置错误消息并返回登录页面
                 request.setAttribute("errorMessage", "Login failed");
                 request.getRequestDispatcher("login.jsp").forward(request, response);
             }

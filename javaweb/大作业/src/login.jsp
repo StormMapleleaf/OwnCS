@@ -58,6 +58,7 @@
             <input type="password" name="password" placeholder="密码" required><br>
             <input type="submit" value="登录">
         </form>
+        <div>账号为admin，密码为admin23</div>
         <%
             if (request.getAttribute("errorMessage") != null) {
         %>

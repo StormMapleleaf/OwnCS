@@ -1,3 +1,11 @@
+<%@ page session="true" %>
+<%
+    // 获取当前会话，如果不存在则不创建新会话
+    if (session == null || session.getAttribute("username") == null) {
+        response.sendRedirect("login.jsp");
+        return;
+    }
+%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page import="java.sql.*" %>
 <%@ page import="javax.servlet.http.HttpSession" %>

@@ -44,6 +44,7 @@ a {
       <div class="list">
         <li><a href="index.jsp">首页</a></li>
         <li><a href="show.jsp">产品详情</a></li>
+        <li><a href="LogoutServlet">退出登录</a></li>
       </div>
     </div>
     <div class="nav-links">

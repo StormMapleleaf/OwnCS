@@ -44,7 +44,7 @@ CMD ["/app/tomcat/bin/catalina.sh", "run"]
 #Example:http://localhost:8080/test1/test1.html
 
 
-#项目结构
+#示范项目结构
 # Pro1
 # │   Dockerfile
 # │
