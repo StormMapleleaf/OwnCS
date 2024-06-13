@@ -4,22 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6a976298bf499555",
+        "id": "5105ad71e12d65f0",
         "type": "tabs",
         "children": [
           {
-            "id": "cf86a4fe40943a71",
+            "id": "8baa3406ed778c10",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -88,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "未命名.canvas"
-              }
+              "state": {}
             }
           }
         ]
@@ -149,11 +138,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "cf86a4fe40943a71",
+  "active": "8baa3406ed778c10",
   "lastOpenFiles": [
+    "GNUmake.md",
+    "CMake.md",
     "缺氧mod/未命名.canvas",
     "未命名.canvas",
-    "CMake.md",
     "2024-04-07.md",
     "Emacs.md",
     "未命名.md"
