@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="14px" viewBox="0 0 30 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>hot</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FF8E00" offset="0%"></stop>
+            <stop stop-color="#FF5201" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0首页【美衣网】" transform="translate(-1348.000000, -1312.000000)">
+            <g id="有好货" transform="translate(360.000000, 1028.000000)">
+                <g id="text" transform="translate(988.000000, 278.000000)">
+                    <g id="hot" transform="translate(0.000000, 6.000000)">
+                        <rect id="矩形" fill="url(#linearGradient-1)" x="0" y="0" width="30" height="14" rx="7"></rect>
+                        <path d="M6.09,10.28 L6.09,7.08 L9.83,7.08 L9.83,10.28 L10.92,10.28 L10.92,3.14 L9.83,3.14 L9.83,6.15 L6.09,6.15 L6.09,3.14 L5,3.14 L5,10.28 L6.09,10.28 Z M15.48,10.42 C16.56,10.42 17.42,10.07 18.05,9.37 C18.65,8.69 18.95,7.81 18.95,6.72 C18.95,5.62 18.65,4.73 18.05,4.06 C17.42,3.35 16.56,3 15.48,3 C14.39,3 13.53,3.35 12.91,4.07 C12.31,4.75 12.02,5.63 12.02,6.72 C12.02,7.8 12.31,8.68 12.91,9.36 C13.53,10.06 14.39,10.42 15.48,10.42 Z M15.48,9.46 C14.72,9.46 14.13,9.2 13.71,8.7 C13.31,8.21 13.11,7.55 13.11,6.72 C13.11,5.88 13.31,5.22 13.71,4.73 C14.13,4.21 14.72,3.96 15.48,3.96 C16.24,3.96 16.83,4.2 17.24,4.7 C17.64,5.19 17.85,5.86 17.85,6.72 C17.85,7.57 17.64,8.24 17.24,8.72 C16.83,9.21 16.24,9.46 15.48,9.46 Z M22.97,10.28 L22.97,4.07 L25.35,4.07 L25.35,3.14 L19.5,3.14 L19.5,4.07 L21.89,4.07 L21.89,10.28 L22.97,10.28 Z" id="HOT" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

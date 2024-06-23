@@ -1,0 +1,18 @@
+D:\JavaWeb\works
+│
+├── Dockerfile                   #项目的环境依赖，包含tomcat和jdk依赖，以及项目操作手册
+│                                
+├── src                          
+│   ├── assets                   #项目素材库
+│   │
+│   ├── index.jsp                #首页，包含一个menu导航，展示轮播图，以及商品，使用html+css+js，包括连接数据库输出商品信息
+│   ├── login.jsp                #网站登录页，使用html+css+js，包括连接数据库验证用户信息，设置session防止跳过登录直接访问index
+│   ├── LoginServlet.java        #登录servlet，处理登录请求，验证用户信息，包含设置session
+│   ├── LogoutServlet.java       #处理退出登录，并且清理session
+│   ├── menu.jsp                 #公共导航页面
+│   ├── show.jsp                 #商品详情展示页面，用于详细展示商品信息，可自定义更改
+│
+├── WEB-INF
+│   ├── classes
+│   │   ├── LoginServlet.class   #编译后的servlet文件
+│   │   ├── LogoutServlet.class  #编译后的servlet文件

@@ -1,0 +1,850 @@
+.wrap {
+  width: 120rem;
+  height: 155rem;
+  cursor: pointer;
+  margin: 0 auto;
+  font-family: PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Hiragion Sans GB, Arial, sans-serif;
+}
+.html {
+  font-size: 16px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.bag {
+  margin: 0 auto;
+  width: 75rem;
+}
+header {
+  cursor: pointer;
+  height: 8.75rem;
+}
+header .nav1 {
+  height: 2.5rem;
+  opacity: 0.6;
+  font-family: PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Hiragion Sans GB, Arial, sans-serif;
+  font-size: 12px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  font-weight: 400;
+  line-height: 2.5rem;
+  background-color: #333;
+}
+header .nav1 .bag {
+  width: 75rem;
+  height: 2.5rem;
+}
+header .nav1 .bag .left {
+  width: 37.5rem;
+  height: 2.5rem;
+  float: left;
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+}
+header .nav1 .bag .right {
+  height: 2.5rem;
+  width: 20.5rem;
+  float: right;
+  display: flex;
+  justify-content: space-evenly;
+}
+header .nav1 .bag .right .lop {
+  float: right;
+  width: 123px;
+  height: 40px;
+  background-color: #424242;
+}
+header .nav1 .bag .right .lop .l1 {
+  float: left;
+  margin-left: 1.38rem;
+  margin-top: 3px;
+}
+header .nav1 .bag .right .lop .l2 {
+  float: right;
+  margin-top: 1px;
+  margin-right: 0.6rem;
+}
+header .nav1 .bag .right .l3 {
+  margin-top: 2px;
+  margin-right: -10px;
+}
+header .nav1 .bag .right .l4 {
+  margin-right: -10px;
+  margin-top: 2px;
+}
+header .nav2 {
+  height: 6.25rem;
+  background-color: white;
+}
+header .nav2 .bag {
+  height: 6.25rem;
+  line-height: 6.25rem;
+  width: 75rem;
+}
+header .nav2 .bag .l1 {
+  float: left;
+  width: 8.5rem;
+  height: 6.25rem;
+}
+header .nav2 .bag .l1 img {
+  margin-top: 1.5rem;
+}
+header .nav2 .bag .l2 {
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  width: 38.69rem;
+  height: 6.25rem;
+  font-size: 16px;
+  color: #1E1E1E;
+  letter-spacing: 0;
+  font-weight: 400;
+  line-height: 6.25rem;
+}
+header .nav2 .bag .l3 {
+  float: left;
+  width: 27.81rem;
+  height: 6.25rem;
+}
+header .nav2 .bag .l3 .right {
+  float: right;
+  margin-top: 1.69rem;
+  width: 23.56rem;
+  height: 3.13rem;
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 25px;
+}
+header .nav2 .bag .l3 .right .l1 {
+  width: 3.2rem;
+  height: 3.13rem;
+  float: left;
+  font-size: 14px;
+  color: #666666;
+  letter-spacing: 0;
+  font-weight: 400;
+  margin-left: 1.5rem;
+  line-height: 3.13rem;
+}
+header .nav2 .bag .l3 .right .l2 {
+  width: 20px;
+  height: 3,13rem;
+  line-height: 3.13rem;
+  float: right;
+  margin-right: 0.94rem;
+  margin-top: 0.94rem;
+}
+main {
+  margin: 0 auto;
+  height: 130.31rem;
+  background-color: #f0f0f0;
+  display: flex;
+}
+main .sec1 {
+  margin-top: 1rem;
+  height: 28.75rem;
+  width: 75rem;
+  background-color: white;
+}
+main .sec1 .left {
+  width: 13.75rem;
+  height: 28.75rem;
+  float: left;
+}
+main .sec1 .left .left {
+  float: left;
+  margin-top: 0.63rem;
+  margin-left: 2.5rem;
+  width: 7.69rem;
+  height: 27.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+main .sec1 .left .left li {
+  font-size: 14px;
+  color: #666666;
+  letter-spacing: 0;
+  line-height: 44px;
+  font-weight: 400;
+}
+main .sec1 .left .lright {
+  float: right;
+  margin-top: 1.23rem;
+  margin-right: 2.5rem;
+  width: 0.69rem;
+  height: 27.5rem;
+  gap: 1.26rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+main .sec1 .right {
+  float: right;
+  width: 61.25rem;
+  height: 28.75rem;
+  background-image: url(assets/banner1.jpg);
+}
+main .sec1 .right .l {
+  width: 2.5rem;
+  height: 4.38rem;
+  float: left;
+  opacity: 0.1;
+  transform: scaleX(-1);
+  background: #000000;
+  border-radius: 2px 0 0 2px;
+  margin-top: 12.31rem;
+}
+main .sec1 .right .l img {
+  float: right;
+  margin-top: 1.38rem;
+  margin-right: 0.7rem;
+}
+main .sec1 .right .r {
+  float: right;
+  width: 2.5rem;
+  margin-top: 12.31rem;
+  height: 4.38rem;
+  opacity: 0.5;
+  transform: scaleX(-1);
+  background: #000000;
+  border-radius: 2px 0 0 2px;
+}
+main .sec1 .right .r img {
+  float: left;
+  margin-left: 0.7rem;
+  margin-top: 1.38rem;
+}
+main .sec1 .right .listd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 76px;
+  height: 12px;
+  float: right;
+  margin-top: 419px;
+  margin-right: -20px;
+}
+main .sec2 .bag {
+  height: 22.5rem;
+  width: 75rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+main .sec2 .bag div {
+  width: 37rem;
+  height: 22.5rem;
+  background-color: #FFFFFF;
+}
+main .sec2 .bag .left .head {
+  height: 1.81rem;
+  width: 37rem;
+  margin-top: 1.5rem;
+}
+main .sec2 .bag .left .head .p1 {
+  float: left;
+  width: 5.5rem;
+  height: 1.81rem;
+  font-size: 22px;
+  color: #FF5100;
+  letter-spacing: 0;
+  line-height: 1.81rem;
+  font-weight: 400;
+  margin-left: 1.5rem;
+}
+main .sec2 .bag .left .head .p22 {
+  width: 0.8rem;
+  height: 1.81rem;
+  font-size: 18px;
+  color: #1E1E1E;
+  letter-spacing: 0;
+  line-height: 1.81rem;
+  font-weight: 400;
+  float: left;
+  margin-left: 0.44rem;
+  margin-top: -0.29rem;
+}
+main .sec2 .bag .left .head .p2 {
+  float: left;
+  width: 6.69rem;
+  height: 1.81rem;
+  font-size: 22px;
+  color: #1E1E1E;
+  letter-spacing: 0;
+  line-height: 1.81rem;
+  font-weight: 400;
+}
+main .sec2 .bag .left .head .p3 {
+  height: 1.81rem;
+  float: right;
+  width: 8rem;
+  font-size: 14px;
+  color: #666666;
+  letter-spacing: 0;
+  font-weight: 400;
+  line-height: 1.81rem;
+  margin-right: 1.5rem;
+}
+main .sec2 .bag .left .ma {
+  height: 16.07rem;
+  width: 34rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+main .sec2 .bag .left .ma li {
+  width: 11.13rem;
+  height: 16.07rem;
+}
+main .sec2 .bag .left .ma li .t {
+  width: 178px;
+  height: 222px;
+  background-image: url(assets/1.jpg);
+}
+main .sec2 .bag .left .ma li .t .lk {
+  float: left;
+  width: 9.13rem;
+  height: 2.25rem;
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin-left: 1rem;
+  margin-top: 10.63rem;
+  font-size: 14px;
+  color: #666666;
+  letter-spacing: 0;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2.25rem;
+}
+main .sec2 .bag .left .ma li .t2 {
+  width: 178px;
+  height: 222px;
+  background-image: url(assets/2.jpg);
+}
+main .sec2 .bag .left .ma li .t2 .lk {
+  float: left;
+  width: 9.13rem;
+  height: 2.25rem;
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin-left: 1rem;
+  margin-top: 10.63rem;
+  font-size: 14px;
+  color: #666666;
+  letter-spacing: 0;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2.25rem;
+}
+main .sec2 .bag .left .ma li .t3 {
+  width: 178px;
+  height: 222px;
+  background-image: url(assets/3.jpg);
+}
+main .sec2 .bag .left .ma li .t3 .lk {
+  float: left;
+  width: 9.13rem;
+  height: 2.25rem;
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin-left: 1rem;
+  margin-top: 10.63rem;
+  font-size: 14px;
+  color: #666666;
+  letter-spacing: 0;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2.25rem;
+}
+main .sec2 .bag .left .ma li .b {
+  height: 2.05rem;
+  width: 11.13rem;
+}
+main .sec2 .bag .left .ma li .b .l {
+  float: left;
+  width: 3.38rem;
+  height: 1.15rem;
+  background: #FF5100;
+  border-radius: 25px;
+  margin-top: 0.88rem;
+  margin-left: 2.44rem;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  font-weight: 400;
+  line-height: 1.15rem;
+  text-align: center;
+}
+main .sec2 .bag .left .ma li .b .r {
+  margin-top: 0.88rem;
+  font-size: 14px;
+  color: #1E1E1E;
+  letter-spacing: 0;
+  font-weight: 400;
+  line-height: 1.15rem;
+  float: left;
+  margin-left: 0.38rem;
+  width: 3.38rem;
+  height: 1.15rem;
+}
+main .sec2 .bag .right .head {
+  height: 1.81rem;
+  width: 37rem;
+  margin-top: 1.5rem;
+}
+main .sec2 .bag .right .head .p1 {
+  float: left;
+  width: 3.19rem;
+  height: 1.81rem;
+  font-size: 22px;
+  color: #1e1e1e;
+  letter-spacing: 0;
+  line-height: 1.81rem;
+  font-weight: 400;
+  margin-left: 1.5rem;
+}
+main .sec2 .bag .right .head .p22 {
+  width: 0.8rem;
+  height: 1.81rem;
+  font-size: 18px;
+  color: #1E1E1E;
+  letter-spacing: 0;
+  line-height: 1.81rem;
+  font-weight: 400;
+  float: left;
+  margin-left: 0.14rem;
+  margin-top: -0.29rem;
+}
+main .sec2 .bag .right .head .p2 {
+  float: left;
+  width: 6.69rem;
+  height: 1.81rem;
+  font-size: 22px;
+  color: #1E1E1E;
+  letter-spacing: 0;
+  line-height: 1.81rem;
+  font-weight: 400;
+}
+main .sec2 .bag .right .head .p3 {
+  height: 1.81rem;
+  float: right;
+  width: 8rem;
+  font-size: 14px;
+  color: #666666;
+  letter-spacing: 0;
+  font-weight: 400;
+  line-height: 1.81rem;
+  margin-right: 1.5rem;
+}
+main .sec2 .bag .right .ma {
+  height: 16.07rem;
+  width: 34rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+main .sec2 .bag .right .ma li {
+  width: 11.13rem;
+  height: 16.07rem;
+}
+main .sec2 .bag .right .ma li .t {
+  width: 178px;
+  height: 222px;
+  background-image: url(assets/4.jpg);
+}
+main .sec2 .bag .right .ma li .t .lk {
+  float: left;
+  width: 9.13rem;
+  height: 2.25rem;
+  background: #F6B140;
+  border-radius: 18px;
+  margin-left: 1rem;
+  margin-top: 11.63rem;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2.25rem;
+}
+main .sec2 .bag .right .ma li .t2 {
+  width: 178px;
+  height: 222px;
+  background-image: url(assets/5.jpg);
+}
+main .sec2 .bag .right .ma li .t2 .lk {
+  float: left;
+  width: 9.13rem;
+  height: 2.25rem;
+  background: #F6B140;
+  border-radius: 18px;
+  margin-left: 1rem;
+  margin-top: 11.63rem;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2.25rem;
+}
+main .sec2 .bag .right .ma li .t3 {
+  width: 178px;
+  height: 222px;
+  background-image: url(assets/6.jpg);
+}
+main .sec2 .bag .right .ma li .t3 .lk {
+  float: left;
+  width: 9.13rem;
+  height: 2.25rem;
+  background: #F6B140;
+  border-radius: 18px;
+  margin-left: 1rem;
+  margin-top: 11.63rem;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2.25rem;
+}
+main .sec2 .bag .right .ma li .b {
+  height: 2.05rem;
+  width: 11.13rem;
+  background-color: #f9f9f9;
+}
+main .sec2 .bag .right .ma li .b .l {
+  float: left;
+  width: 4rem;
+  height: 1.5rem;
+  margin: 0 auto;
+  margin-top: 0.25rem;
+  margin-left: 3.75rem;
+}
+main .sec2 .bag .right .ma li .b .r {
+  float: right;
+  margin-top: 0.25rem;
+  background: #FF5100;
+  border-radius: 25px;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 14px;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  font-weight: 400;
+  margin-right: 0.25rem;
+}
+main .sec3 {
+  height: 1.75rem;
+  width: 75rem;
+  margin: 0 auto;
+  margin-top: 2.25rem;
+  font-size: 22px;
+  color: #1E1E1E;
+  letter-spacing: 0;
+  line-height: 1.75rem;
+  font-weight: 400;
+}
+main .sec3 .l1 {
+  float: left;
+  margin-left: 1.5rem;
+}
+main .sec3 .l2 {
+  float: left;
+  margin-top: -0.4rem;
+  margin-left: 0.25rem;
+}
+main .sec3 .l3 {
+  float: left;
+  margin-left: 0.45rem;
+}
+main .sec3 .l4 {
+  float: right;
+  font-size: 14px;
+  color: #666666;
+  letter-spacing: 0;
+  font-weight: 400;
+  line-height: 1.75rem;
+  margin-right: 1.5rem;
+}
+main .sec4 {
+  height: 21rem;
+  width: 75rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+main .sec4 li {
+  width: 14.25rem;
+  height: 21rem;
+  background-color: white;
+  border-top: 1px solid #FF5100;
+}
+main .sec4 li .p {
+  width: 14.25rem;
+  height: 13.13rem;
+}
+main .sec4 li .describe {
+  width: 12.25rem;
+  height: 2.75rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #666666;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 22px;
+  font-weight: 400;
+}
+main .sec4 li .much {
+  width: 12.25rem;
+  height: 1.63rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #1E1E1E;
+  letter-spacing: 0;
+  line-height: 26px;
+  font-weight: 400;
+}
+main .sec4 li .much .m1 {
+  float: left;
+}
+main .sec4 li .much .m1 .ml {
+  float: left;
+}
+main .sec4 li .much .m1 .mk {
+  float: left;
+  font-size: 20px;
+  color: #1E1E1E;
+  letter-spacing: 0;
+  line-height: 1.63rempx;
+  font-weight: 500;
+}
+main .sec4 li .much .m2 {
+  float: right;
+  margin-top: 0.18rem;
+}
+main .sec5 {
+  height: 21rem;
+  width: 75rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+main .sec5 li {
+  width: 14.25rem;
+  height: 21rem;
+  background-color: white;
+}
+main .sec5 li .p {
+  width: 14.25rem;
+  height: 13.13rem;
+}
+main .sec5 li .describe {
+  width: 12.25rem;
+  height: 2.75rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #666666;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 22px;
+  font-weight: 400;
+}
+main .sec5 li .much {
+  width: 12.25rem;
+  height: 1.63rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #1E1E1E;
+  letter-spacing: 0;
+  line-height: 26px;
+  font-weight: 400;
+}
+main .sec5 li .much .m1 {
+  float: left;
+}
+main .sec5 li .much .m1 .ml {
+  float: left;
+}
+main .sec5 li .much .m1 .mk {
+  float: left;
+  font-size: 20px;
+  color: #1E1E1E;
+  letter-spacing: 0;
+  line-height: 1.63rempx;
+  font-weight: 500;
+}
+main .sec5 li .much .fk {
+  float: left;
+  font-size: 12px;
+  color: #999999;
+  letter-spacing: 0;
+  font-weight: 400;
+  margin-top: 0.1rem;
+  margin-left: 0.63rem;
+}
+main .sec6 {
+  height: 21rem;
+  width: 75rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+main .sec6 li {
+  width: 14.25rem;
+  height: 21rem;
+  background-color: white;
+}
+main .sec6 li .p {
+  width: 14.25rem;
+  height: 13.13rem;
+}
+main .sec6 li .describe {
+  width: 12.25rem;
+  height: 2.75rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #666666;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 22px;
+  font-weight: 400;
+}
+main .sec6 li .much {
+  width: 12.25rem;
+  height: 1.63rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #1E1E1E;
+  letter-spacing: 0;
+  line-height: 26px;
+  font-weight: 400;
+}
+main .sec6 li .much .m1 {
+  float: left;
+}
+main .sec6 li .much .m1 .ml {
+  float: left;
+}
+main .sec6 li .much .m1 .mk {
+  float: left;
+  font-size: 20px;
+  color: #1E1E1E;
+  letter-spacing: 0;
+  line-height: 1.63rempx;
+  font-weight: 500;
+}
+main .sec6 li .much .fk {
+  float: left;
+  font-size: 12px;
+  color: #999999;
+  letter-spacing: 0;
+  font-weight: 400;
+  margin-top: 0.1rem;
+  margin-left: 0.63rem;
+}
+footer .list {
+  height: 14.5rem;
+  background-color: white;
+}
+footer .list .bag {
+  display: flex;
+  justify-content: start;
+  gap: 6.25rem;
+}
+footer .list .bag li {
+  height: 12.25rem;
+}
+footer .list .bag li .l {
+  float: left;
+  margin-top: 2.5rem;
+  font-size: 16px;
+  color: #666666;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+footer .list .bag li .ll {
+  float: left;
+  margin-top: 1.44rem;
+  font-size: 14px;
+  color: #999999;
+  letter-spacing: 0;
+  line-height: 28px;
+  font-weight: 400;
+}
+footer .list .bag .a {
+  width: 6.69rem;
+}
+footer .list .bag .aa {
+  width: 7.88rem;
+}
+footer .list .bag .aaa {
+  width: 6.13rem;
+}
+footer .list .bag .aaaa {
+  width: 5.25rem;
+}
+footer .list .bag .aaaaa {
+  width: 4rem;
+}
+footer .list .bag .aaaaaa {
+  width: 6.88rem;
+  margin-left: 3rem;
+  height: 6.5rem;
+  font-size: 16px;
+  color: #666666;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+footer .list .bag .aaaaaa .m {
+  height: 8.7rem;
+  width: 6.88rem;
+  margin-top: 3.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .list .bag .aaaaaa .m .llp {
+  height: 1.88rem;
+  width: 7.88rem;
+}
+footer .list .bag .aaaaaa .m .llp .p {
+  float: left;
+}
+footer .list .bag .aaaaaa .m .llp .wd {
+  float: left;
+  margin-left: 1rem;
+}
+footer .an {
+  height: 3.13rem;
+  background-color: #222;
+}
+footer .an .bag {
+  width: 75rem;
+  height: 3.13rem;
+  margin: 0 auto;
+  opacity: 0.3;
+  font-size: 12px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 3.13rem;
+  font-weight: 400;
+}
