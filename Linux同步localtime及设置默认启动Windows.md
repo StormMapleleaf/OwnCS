@@ -10,7 +10,7 @@ sudo hwclock --localtime --systohc
 """
 """
 修改开机默认启动光标选择windows
-sudo nano /etc/default/grup
+sudo nano /etc/default/grub
 按照开机Windows的顺序修改GRUB_DEFAULT=4(开机时Windows排在第五个，从0开始数为4)
 sudo update-grub
 """
