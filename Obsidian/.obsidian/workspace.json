@@ -11,8 +11,12 @@
             "id": "8baa3406ed778c10",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "GNUmake.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "GNUmake.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "GNUmake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "GNUmake.md"
+              }
             }
           }
         ]
@@ -140,8 +148,8 @@
   },
   "active": "8baa3406ed778c10",
   "lastOpenFiles": [
-    "GNUmake.md",
     "CMake.md",
+    "GNUmake.md",
     "缺氧mod/未命名.canvas",
     "未命名.canvas",
     "2024-04-07.md",
