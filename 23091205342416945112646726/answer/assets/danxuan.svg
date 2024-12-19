@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>danxuan</title>
+    <g id="home-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-Tab切换效果" transform="translate(-602.000000, -226.000000)">
+            <g id="1" transform="translate(0.000000, 170.000000)">
+                <g id="浮框" transform="translate(360.000000, 40.000000)">
+                    <g id="编组-7" transform="translate(88.000000, 14.000000)">
+                        <g id="danxuan" transform="translate(155.000000, 3.000000)">
+                            <circle id="椭圆形" stroke="#00C2C6" cx="7" cy="7" r="7"></circle>
+                            <circle id="椭圆形" fill="#00C2C6" cx="7" cy="7" r="3"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

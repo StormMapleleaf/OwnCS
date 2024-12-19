@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="48px" viewBox="0 0 72 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ssbg</title>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0.824167833%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#46DDB7" offset="0%"></stop>
+            <stop stop-color="#00C2C6" offset="100%"></stop>
+            <stop stop-color="#00BCD4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="home-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-首页" transform="translate(-1173.000000, -57.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="logo栏" transform="translate(0.000000, 36.000000)">
+                <g id="搜索" transform="translate(675.000000, 21.000000)">
+                    <path d="M498,0 L546,0 C559.254834,-2.4348735e-15 570,10.745166 570,24 C570,37.254834 559.254834,48 546,48 L498,48 L498,48 L498,0 Z" id="ssbg"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

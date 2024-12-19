@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>wf</title>
+    <g id="home-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-Tab切换效果" transform="translate(-586.000000, -702.000000)" fill="#C9C9C9" fill-rule="nonzero">
+            <g id="2" transform="translate(0.000000, 620.000000)">
+                <g id="浮框" transform="translate(360.000000, 40.000000)">
+                    <g id="编组-7" transform="translate(88.000000, 14.000000)">
+                        <g id="wf" transform="translate(138.000000, 28.000000)">
+                            <path d="M11.0000205,0 C4.93447535,0 0,4.93447532 0,10.9999795 C0,17.0655246 4.93447532,22 11.0000205,22 C17.0655247,22 22,17.0655247 22,10.9999795 C22,4.93447532 17.0655247,0 11.0000205,0 Z M17.0791214,10.251298 L4.61851459,10.251298 L4.61851459,8.70352038 L13.934749,8.69074272 L13.4148779,6.30467601 L17.0791214,10.251298 Z M4.59451549,12.120647 L17.0551223,12.120647 L17.0551223,13.6684246 L7.73888795,13.6812023 L8.25880002,16.0672689 L4.59451549,12.120647 L4.59451549,12.120647 Z" id="形状"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
